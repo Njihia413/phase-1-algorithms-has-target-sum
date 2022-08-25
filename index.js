@@ -16,14 +16,23 @@ function hasTargetSum(array, target) {
 
 /* 
   Write the Big O time complexity of your function here
+  O(n^2), since there is a nested loop
 */
 
 /* 
   Add your pseudocode here
+  1. Iterate through the array 
+  2. Subtracting each value in the array from target value
+  3. If the remainder is present in the rest of the values
+      return true
+  4. Else return false
 */
 
 /*
   Add written explanation of your solution here
+  Target - Sum of the value and the remainder
+  Value - First value from the array
+  Remainder - Other value in array to add to the first value to get the target 
 */
 
 // You can run `node index.js` to view these console logs
